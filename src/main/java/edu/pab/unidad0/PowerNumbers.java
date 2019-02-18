@@ -13,8 +13,8 @@ public class PowerNumbers {
 
     private void fillPowerNumbers(int array[][]) {
         for (int i = 0; i < array.length; i++) {
-            int p = array[i][0];
-            int n = p;
+            int n = array[i][0];
+            int p = n;
             for (int j = 1; j < array[i].length; j++) {
                 n = n * p;
                 array[i][j] = n;
